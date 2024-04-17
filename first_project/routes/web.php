@@ -17,8 +17,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/post', function () {
-    // return view('post');
-    return "Post Page";
+    return view('post');
+    // return "Post Page";
+});
+Route::get('/post/firstpost',function(){
+    return view('firstpost');
 });
 
 // Route::view('/p','post');

@@ -8,5 +8,7 @@
 </head>
 <body>
     <h1>Hello World</h1>
+    <a href="/post">Post Page</a>
+    <a href="/post/firstpost">First Post Page</a>
 </body>
 </html>

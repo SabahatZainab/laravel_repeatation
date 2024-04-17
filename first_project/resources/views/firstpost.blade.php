@@ -7,8 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Post Hello World</h1>
-    <a href="/">Back</a>
-    <a href="/post/firstpost">First Post Page</a>
+    <h1>First Post Page</h1>
+    <a href="/post">Post</a>
+    <a href="/">Home</a>
 </body>
 </html>

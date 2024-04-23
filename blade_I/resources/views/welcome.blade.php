@@ -1,3 +1,9 @@
+@php
+    $fruits = ["Apple","Banana","Orange","Grapes"];
+@endphp
+{{-- @include('pages.header',['name'=>'Yahoo Baba']) --}}
+@include('pages.header',['fruits'=>$fruits])
+
 <h1>Welcome: Home Page!</h1>
 
 {{5+9}}
@@ -48,3 +54,4 @@
 @@if() {{--if we are use @ at the first of statement it prints statement same output => @if()--}}
 
 
+@include('pages.footer')

@@ -10,3 +10,4 @@
 
 
 @include('pages.footer')
+@include('pages.content')
